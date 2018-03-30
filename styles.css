@@ -52,6 +52,13 @@
                 letter-spacing: 3px;
                 color: white;
             }
+
+            .startTime {
+                text-align: center;
+                font-size: 20px;
+                letter-spacing: 6px;
+                color: white;
+            }
             html, body {margin: 0; height: 100%; overflow: hidden}
 
             
