@@ -54,6 +54,13 @@
         </video>
 
     </div>
+    
+    <script>
+    function hitmarker(){
+        var audio = new Audio('./media/1.wav');
+        audio.play();
+       }
+       </script>
 
 
     <div class="content">
@@ -64,12 +71,8 @@
     </div>
 
     <script language="JavaScript">
-            function hitmarker(){
-                var audio = new Audio('./media/roblox.wav');
-                   audio.play();
-                }
-            var vid = document.getElementById("video-bg-elem");
-            vid.volume = 0.1;
+        var vid = document.getElementById("video-bg-elem");
+        vid.volume = 0.1;
         window.onload = function() {
         document.addEventListener("contextmenu", function(e){
       e.preventDefault();
