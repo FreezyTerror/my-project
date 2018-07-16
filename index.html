@@ -26,12 +26,9 @@
             
                 moveTitle();
                 
-                function hitmarker(){
-                var audio = new Audio('./media/roblox.wav');
-                   audio.play();
-                }
-                
-                hitmarker();
+                           
+           
+
             </script>
 
             <link rel="stylesheet" href="styles.css">
@@ -67,10 +64,14 @@
     </div>
 
     <script language="JavaScript">
+            function hitmarker(){
+                var audio = new Audio('./media/roblox.wav');
+                   audio.play();
+                }
             var vid = document.getElementById("video-bg-elem");
             vid.volume = 0.1;
-  window.onload = function() {
-    document.addEventListener("contextmenu", function(e){
+        window.onload = function() {
+        document.addEventListener("contextmenu", function(e){
       e.preventDefault();
     }, false);
     document.addEventListener("keydown", function(e) {
