@@ -47,11 +47,16 @@
 
     <div class="background-wrap">
 
-        <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop">
-            <source src="./media/video.mp4" type="video/mp4">
-            <source src="./media/video.ogg" type="video/ogg">
-                Video not supported
-        </video>
+        <div class="view hm-black-strong jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(media/video.mp4); min-height: 0px;">
+            <div class="background-wrap">
+                <iframe src="media/silence.mp3" allow="autoplay" style="display:none"></iframe>
+                <audio id="bg" autoplay loop>
+                  <source src="media/video.ogg">
+                    <script>
+                        var video = document.currentScript.parentElement;
+                        video.volume = 0.05;
+                    </script>
+                </audio>
 
     </div>
 
@@ -60,7 +65,7 @@
 
         <h1>HiddenHook</h1>
         <p>¯\_(ツ)_/¯</p>
-        <p><a href="https://steamcommunity.com/id/focusenergy/" target="blank_" style="color: #00F555" >Steam</a></p>
+        <p><a href="https://steamcommunity.com/id/entrainment/" target="blank_" style="color: #00F555" >Steam</a></p>
     </div>
 
     <script language="JavaScript">
