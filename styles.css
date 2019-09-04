@@ -23,8 +23,6 @@
             }
 	#video-bg-elem {
                 position: fixed;
-		overflow-y: hidden;
-		overflow-x: hidden;
                 right: 0;
   		bottom: 0;
   		min-width: 100%; 
